@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'app_mtv',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'proyecto_mtv.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/home/lucinahi/Coder/Proyecto_MTV/Repositorio_MTV/proyecto_mtv/Plantillas/template_mtv.html'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
